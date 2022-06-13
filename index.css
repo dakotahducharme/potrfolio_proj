@@ -10,9 +10,7 @@ nav {
     color: #32373B;
     display: flex;
     justify-content: space-around;
-    /* flex-direction: row; */
     padding: .5em;
-    background-image: linear-gradient(#9B222650, #CA670250, #005F7350);
 }
 
 h1 > a {
@@ -56,7 +54,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: .5em;
-    background-image: linear-gradient(#9B222650, #CA670250, #005F7350);
+    /* background-image: linear-gradient(#9B222650, #CA670250, #005F7350); */
     background-size: contain;
     margin: 0;
     position: fixed;
@@ -70,9 +68,6 @@ footer {
     width: 100%;
 }
 
-#intro:hover {
-    /* background-image: linear-gradient(#9B222660, #CA670260, #005F7360); */
-}
 #intro {
     text-align: center;
     width: 60%;
@@ -83,6 +78,24 @@ footer {
     justify-content: center;
 }
 
-html {
-    margin: 0;
+h1 {
+    text-align: center;
+}
+
+/* experience page */
+
+#exp-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 6em 6em 6em;
+    align-items: center;
+    text-align: center;
+}
+
+.experience {
+    padding: 2em 3em;
+}
+
+h4 {
+    padding-top: 0%;
 }
