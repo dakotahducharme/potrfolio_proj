@@ -1,20 +1,29 @@
 * {
     font-family: 'Roboto Mono', monospace;
 }
-
+body {
+  background-color: #F4D6CC70;
+  margin: 0;
+}
 nav {
-    /* background-color: #CA670290; */
     font-size: x-large;
     color: #32373B;
     display: flex;
     justify-content: space-around;
     /* flex-direction: row; */
     padding: .5em;
-    /* background-image: linear-gradient(#9B222690, #CA670290, #005F7390); */
+    background-image: linear-gradient(#9B222650, #CA670250, #005F7350);
 }
 
-h1 {
+h1 > a {
     display: inline;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    text-decoration: none;
+}
+
+h1:hover > a {
+    color: #0A9396;
 }
 
 li {
@@ -26,23 +35,54 @@ a, li {
     color: #32373B;
     list-style-type: none;
     -webkit-transition: color 1s;
-    transition: color 1s;
+    transition: all 0.5s ease-out;
 }
 
-a:hover {
+a:hover{
     color: #BB3E03;
 }
+
 
 #container {
     /* background-color: ; */
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     padding: 1em 6em 6em 6em;
-    margin: 2em ;
+    align-items: center;
 }
 
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: .5em;
+    background-image: linear-gradient(#9B222650, #CA670250, #005F7350);
+    background-size: contain;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5em;
+}
+
+.bio {
+    padding: 2em;
+    width: 100%;
+}
+
+#intro:hover {
+    /* background-image: linear-gradient(#9B222660, #CA670260, #005F7360); */
+}
+#intro {
+    text-align: center;
+    width: 60%;
+}
+
+#bio_pic {
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    margin: 0;
 }
