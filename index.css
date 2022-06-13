@@ -44,7 +44,7 @@ a:hover{
 #container {
     /* background-color: ; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding: 1em 6em 6em 6em;
     align-items: center;
 }
@@ -84,12 +84,24 @@ h1 {
 
 /* experience page */
 
-#exp-container {
+#exp-container, #edu-container {
     display: flex;
     justify-content: space-around;
-    padding: 1em 6em 6em 6em;
+    padding: 1em 10em 6em 10em;
     align-items: center;
     text-align: center;
+}
+
+#index-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+#home, .education {
+    padding: 1em 50em;
 }
 
 .experience {
