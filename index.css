@@ -1,0 +1,44 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+    /* background-color: #CA670290; */
+    font-size: x-large;
+    color: #32373B;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    padding: .5em;
+    /* background-image: linear-gradient(#9B222690, #CA670290, #005F7390); */
+}
+```````````````````````````````````````````````````````````````````````````````````````````                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+li {
+    padding: .5em;
+    display: inline;
+}
+
+a, li {
+    color: #32373B;
+    list-style-type: none;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+a:hover {
+    color: #BB3E03;
+}
+
+#container {
+    /* background-color: ; */
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 6em 6em 6em;
+    margin: 2em ;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
