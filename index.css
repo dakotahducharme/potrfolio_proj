@@ -12,7 +12,11 @@ nav {
     padding: .5em;
     /* background-image: linear-gradient(#9B222690, #CA670290, #005F7390); */
 }
-```````````````````````````````````````````````````````````````````````````````````````````                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+
+h1 {
+    display: inline;
+}
+
 li {
     padding: .5em;
     display: inline;
