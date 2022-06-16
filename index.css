@@ -116,16 +116,19 @@ footer {
 
 .bio {
     padding: 2em;
-    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 60em;
     border-radius: 10%;
+
 }
 
 #intro, #intro2 {
     text-align: center;
     background-color: #fbe9e3;
     margin: 1em;
-    /* height: 35em; */
-    width: 20%;
     border-radius: 10%;
     border-color: #ff185f;
     border-width: 5%;
