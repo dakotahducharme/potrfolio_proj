@@ -111,8 +111,7 @@ footer {
 .img-home {
     margin: .25em;
     border-radius: 10%;
-    width: 30em;
-    height:40em;
+    /* width: 3em; */
 }
 
 .bio {
@@ -125,8 +124,8 @@ footer {
     text-align: center;
     background-color: #fbe9e3;
     margin: 1em;
-    height: 35em;
-    width: 45em;
+    /* height: 35em; */
+    width: 20%;
     border-radius: 10%;
     border-color: #ff185f;
     border-width: 5%;
@@ -150,30 +149,45 @@ h1 {
     text-align: center;
     flex-wrap: wrap;
     padding: 2em 1em;
-    margin-top: 2em;
+    margin: 2em;
+    /* flex-direction: row; */
 }
 
 
 .experience, .education {
-    padding: 2em 3em;
-    height: 25em;
-    width: 35em;
+    padding: 2em ;
+    /* height: 25em; */
+    /* width: 35em; */
     background-color: #fbe9e3;
     margin: 1em 4em;
     border-radius: 10%;
     border-color: #05769f;
     border-width: 5%;
     border-style: dashed;
-    flex-direction: row;
-    font-size: 1.25em;
+    font-size: 1.em;
 }
 
+.education {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#edu-container, #exp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 60em;
+}
 
 h4 {
     padding-top: 0%;
 }
 
-/* portfolio */
+/* ///////////////portfolio////////// */
+
 #portfolio-layout {
     display: flex;
     justify-content: center;
@@ -182,6 +196,7 @@ h4 {
     flex-wrap: wrap;
     padding: 0em 1em;
 }
+
 .project-image {
     height: 25em;
     width: 35em;
@@ -197,9 +212,7 @@ h4 {
 #portfolio-h1 {
     padding: 0em 0em 2em 0em;
 }
-.title > a {
-    /* color: #fbe9e3; */
-}
+
 .project-info {
     background-color: #fbe9e399;
     border-radius: 10%;
@@ -210,6 +223,8 @@ h4 {
     border-width: 5%;
     border-style: dashed;
 }
+
+/*///////////// queries /////////////// */
 
 @media only screen and (max-width: 600px) {
     body {
@@ -225,3 +240,16 @@ h4 {
         display: inline;
     }
   }
+
+  @media screen and (max-width: 600px) {
+      #bio-pic {
+          width: fit-content;
+      }
+
+      * {
+          flex-direction: column;
+      }
+
+
+  }
+
