@@ -1,2 +1,2 @@
-![info](learned_goals.png)
+![info](learned-goals.png)
 ![highlights](highlights.png)
